@@ -123,7 +123,7 @@ module.exports = function(app) {
         "challenges" : {},
         "verificationToken" : "",
         "avatar" : faker.image.avatar(),
-        "departmentId" : "1"
+        "departmentId" : 1
       }];
 
       // Create fake data

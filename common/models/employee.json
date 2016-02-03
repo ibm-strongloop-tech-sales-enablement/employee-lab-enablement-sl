@@ -24,7 +24,7 @@
       "type": "string"
     },
     "departmentId": {
-      "type": "string"
+      "type": "number"
     }
   },
   "validations": [],
