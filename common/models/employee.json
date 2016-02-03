@@ -5,15 +5,56 @@
   "options": {
     "validateUpsert": true
   },
-  "properties": {},
+  "properties": {
+    "lastName": {
+      "type": "string",
+      "required": true
+    },
+    "firstName": {
+      "type": "string",
+      "required": true
+    },
+    "jobTitle": {
+      "type": "string"
+    },
+    "workPhoneNo": {
+      "type": "string"
+    },
+    "avatar": {
+      "type": "string"
+    },
+    "departmentId": {
+      "type": "string"
+    }
+  },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "department": {
+      "type": "belongsTo",
+      "model": "Department",
+      "foreignKey": "departmentId"
+    }
+  },
   "acls": [
     {
       "accessType": "EXECUTE",
       "principalType": "ROLE",
       "principalId": "$authenticated",
       "permission": "ALLOW"
+    },
+    {
+      "accessType": "EXECUTE",
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "ALLOW",
+      "property": "lookupEmployeeById"
+    },
+    {
+      "accessType": "EXECUTE",
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "ALLOW",
+      "property": "lookupEmployeeByName"
     }
   ],
   "methods": {}

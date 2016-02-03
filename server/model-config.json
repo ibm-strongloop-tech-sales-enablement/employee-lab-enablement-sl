@@ -35,7 +35,9 @@
   },
   "Employee": {
     "dataSource": "db",
-    "public": true
+    "public": true,
+    "$promise": {},
+    "$resolved": true
   },
   "Department": {
     "dataSource": "db",

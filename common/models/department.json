@@ -15,7 +15,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "employees": {
+      "type": "hasMany",
+      "model": "Employee",
+      "foreignKey": "departmentId"
+    }
+  },
   "acls": [
     {
       "accessType": "EXECUTE",
