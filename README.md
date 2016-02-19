@@ -552,12 +552,12 @@ If you get stuck, you can review the completed project on github.
 
 ## More information
 
-[StrongLoop Documentation]
-[StrongLoop Blog]
-[Signup for StrongLoop Newsletter]
-[StrongLoop: Standard project structure]
-[StrongLoop: Getting Started Tutorial - Part 1]
-[StrongLoop: Getting Started Tutorial - Part 2]
-[StrongLoop: Access Control Tutorial]
-[StrongLoop: Creating Model Relations Tutorial]
-[StrongLoop: YouTube Videos]
+[StrongLoop Documentation](https://docs.strongloop.com/display/SL/Installing+StrongLoop)
+[StrongLoop Blog](https://strongloop.com/strongblog/)
+[Signup for StrongLoop Newsletter](https://strongloop.com/newsletter-registration/)
+[StrongLoop: Standard project structure](https://docs.strongloop.com/display/public/LB/Standard+project+structure)
+[StrongLoop: Getting Started Tutorial - Part 1](https://docs.strongloop.com/display/public/LB/Getting+started+with+LoopBack)
+[StrongLoop: Getting Started Tutorial - Part 2](https://docs.strongloop.com/display/public/LB/Getting+started+part+II)
+[StrongLoop: Access Control Tutorial](https://docs.strongloop.com/display/public/LB/Tutorial%3A+access+control)
+[StrongLoop: Creating Model Relations Tutorial](https://docs.strongloop.com/display/public/LB/Tutorial%3A+model+relations)
+[StrongLoop: YouTube Videos](https://www.youtube.com/user/StrongLoopVideos)
