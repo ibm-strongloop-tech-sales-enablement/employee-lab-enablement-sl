@@ -19,7 +19,7 @@ Last updated: 2/1/2016
 ---- 
 ## Create a New Project
 From your project directory create new loopback project called employee-lab-enablement-sl
-'' slc loopback employee-lab-enablement-sl
+'slc loopback employee-lab-enablement-sl'
 
 ----
 ## Create the Department Model
