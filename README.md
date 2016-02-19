@@ -24,14 +24,14 @@ From your project directory create new loopback project called employee-lab-enab
 
 ----
 ## Create the Department Model
-``slc loopback:model
+```slc loopback:model
 Enter the model name: Department
 Select the data-source to attach Department to: db (memory)
 Select model's base class: PersistedModel
 Expose Employee via REST API? Y
 Custom plural form (used to build REST URL): Leave blank
 Common model or server only? common
-``
+```
 ''Property name: name
 ''Property type: string
 ''Required?: y
