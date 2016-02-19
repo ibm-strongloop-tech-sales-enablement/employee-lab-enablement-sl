@@ -17,6 +17,38 @@ t: @KenAtIBM
 
 Last updated: 2/1/2016
 ---- 
+
+----
+## Download and Run Option
+If you want to just run this application, you can clone it and perform an npm install. Otherwise scroll down to the Script section to manually create.
+* To do that, open a terminal and type:
+```
+git clone https://github/com/ibm-strongloop-tech-sales-enablement/employee-lab-enablement-sl
+```
+
+* Change directories to employee-lab-enalbement-sl
+```
+cd employee-lab-enablement-sl
+```
+
+* Install the required modules from npm
+```
+npm install
+```
+
+* Start the server
+```
+node .
+```
+
+* Open a browser and navigate to http://0.0.0.0:3000/explorer
+
+----
+
+
+# Script
+
+
 ## Create a New Project
 From your project directory create new loopback project called employee-lab-enablement-sl
 
