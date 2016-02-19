@@ -80,7 +80,9 @@ Required?: n
 ```
 
 When Property name appears again, press enter to close the wizard.
+
 ---- 
+
 ## Create the Employee Model
 ```
 slc loopback:model
@@ -145,6 +147,7 @@ Now that you have created a couple of models, test them out.
 ```
 slc loopback:acl
 ```
+
 ```
 Select the model to apply the ACL entry to: Employee
 Select the ACL scope: All methods and properties
@@ -183,6 +186,7 @@ Select the permission to apply: Explicitly grant access
 ```
 slc loopback:relation
 ```
+
 ```
 Select the model to create the relationship from: Department
 Relation type: has many
@@ -196,6 +200,7 @@ Require a through model? N
 ```
 slc loopback:relation
 ```
+
 ```
 Select the model to create the relationship from: Employee
 Relation type: belongs to
@@ -291,7 +296,10 @@ This is will create a file called mydata.json in the root of the project that wi
 Manually entering data is very time consuming. The following will create mock data for the application.
 + Stop the server.
 + In the terminal add the faker library
-''npm install faker --save
+```
+npm install faker --save
+```
+
 + The —save flag adds the faker library to package.json dependencies. This ensures that running npm install will include the faker library.
 + In the terminal add the async library
 ```
