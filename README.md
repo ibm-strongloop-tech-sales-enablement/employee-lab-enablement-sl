@@ -24,7 +24,9 @@ From your project directory create new loopback project called employee-lab-enab
 
 ----
 ## Create the Department Model
-```slc loopback:model
+
+```
+slc loopback:model
 Enter the model name: Department
 Select the data-source to attach Department to: db (memory)
 Select model's base class: PersistedModel
@@ -32,53 +34,64 @@ Expose Employee via REST API? Y
 Custom plural form (used to build REST URL): Leave blank
 Common model or server only? common
 ```
-''Property name: name
-''Property type: string
-''Required?: y
-
-''Property name: manager
-''Property type: number
-''Required?: n
+```
+Property name: name
+Property type: string
+Required?: y
+```
+```
+Property name: manager
+Property type: number
+Required?: n
+```
 
 When Property name appears again, press enter to close the wizard.
 ---- 
 ## Create the Employee Model
-''slc loopback:model
+``slc loopback:model``
 
-''Enter the model name: Employee
-''Select the data-source to attach Employee to: db (memory)
-''Select model's base class: User
-''Expose Employee via REST API? Y
-''Custom plural form (used to build REST URL): Leave blank
-''Common model or server only? common
-
-''Property name: lastName
-''Property type: string
-''Required?: y 
-
-''Property name: firstName
-''Property type: string
-''Required?: y
-
-''Property name: jobTitle
-''Property type: string
-''Required?: n
-
-''Property name: workPhoneNo
-''Property type: string
-''Required?: n
-
-''Property name: avatar
-''Property type: string
-''Required?: n 
-
-''Property name: departmentId
-''Property type: number
-''Required?: n
+```
+Enter the model name: Employee
+Select the data-source to attach Employee to: db (memory)
+Select model's base class: User
+Expose Employee via REST API? Y
+Custom plural form (used to build REST URL): Leave blank
+Common model or server only? common
+```
+```
+Property name: lastName
+Property type: string
+Required?: y 
+```
+```
+Property name: firstName
+Property type: string
+Required?: y
+```
+```
+Property name: jobTitle
+Property type: string
+Required?: n
+```
+```
+Property name: workPhoneNo
+Property type: string
+Required?: n
+```
+```
+Property name: avatar
+Property type: string
+Required?: n 
+```
+```
+Property name: departmentId
+Property type: number
+Required?: n
+```
 
 ## Start your server
 In your terminal type the following:
-''node .
+``node .``
 
 Now that you have created a couple of models, test them out.
 + Open a browser and navigate to explorer
